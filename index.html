@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Temjen Imna Along - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#home" class="navbar-logo">Temjen Imna Along</a>
+            <div class="navbar-toggle">
+                <span class="navbar-toggle-icon"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#home" class="navbar-link active">Home</a></li>
+                <li><a href="#about" class="navbar-link">About</a></li>
+                <li><a href="#vision" class="navbar-link">Vision</a></li>
+                <li><a href="#quotes" class="navbar-link">Quotes</a></li>
+                <li><a href="#achievements" class="navbar-link">Achievements</a></li>
+                <li><a href="#gallery" class="navbar-link">Gallery</a></li>
+                <li><a href="#connect" class="navbar-link">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/hero.jpg" alt="Temjen Imna Along in traditional Naga attire">
+            </div>
+            <div class="hero-text">
+                <h1 id="typewriter-line1">Namaste!</h1>
+                <h1 id="typewriter-line2">I'm Temjen Imna Along —</h1>
+                <div class="hero-subtitle">Educator. Leader. Proud Naga.</div>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-animate" id="about">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-container">
+            <div class="about-item reveal-left">
+                <div class="about-image">
+                    <img src="images/early-life.png" alt="Temjen Imna Along early life">
+                </div>
+                <div class="about-text">
+                    <h3>Early Life & Education</h3>
+                    <div class="tribal-border"></div>
+                    <p>Born and raised in Nagaland, I completed my education with a strong belief that knowledge is the foundation of progress. My journey began with a vision to serve my people and bring positive change to our society.</p>
+                </div>
+            </div>
+            
+            <div class="about-item reveal-right">
+                <div class="about-text">
+                    <h3>Political Journey</h3>
+                    <div class="tribal-border"></div>
+                    <p>As a member of the Bharatiya Janata Party, I have dedicated my career to public service. Representing my constituency with pride, I work tirelessly to address the needs of my people and promote the rich cultural heritage of Nagaland.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/political-journey.jpg" alt="Temjen Imna Along political journey">
+                </div>
+            </div>
+            
+            <div class="about-item reveal-left">
+                <div class="about-image">
+                    <img src="images/community-leadership.jpg" alt="Temjen Imna Along with community">
+                </div>
+                <div class="about-text">
+                    <h3>Community Leadership</h3>
+                    <div class="tribal-border"></div>
+                    <p>My role as Minister of Higher Education and Tourism has allowed me to champion educational initiatives and promote Nagaland's unique cultural identity. I believe in leading by example and fostering unity through our shared heritage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Values Section -->
+    <section class="vision section-animate" id="vision">
+        <h2 class="section-title">Vision & Values</h2>
+        
+        <div class="vision-container">
+            <div class="vision-card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Education First</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Empowering our youth through quality education and skill development to build a brighter future for Nagaland.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vision-card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Unity Through Culture</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Preserving and promoting our rich Naga heritage while fostering unity and understanding among diverse communities.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vision-card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-laptop"></i>
+                        <h3>Digital Empowerment</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Bridging the digital divide and leveraging technology to create opportunities for growth and innovation in our region.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vision-card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-balance-scale"></i>
+                        <h3>Transparent Governance</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Committed to integrity, accountability, and transparency in public service to build trust and deliver effective governance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Carousel Section -->
+    <section class="quotes section-animate" id="quotes">
+        <h2 class="section-title">In My Words</h2>
+        
+        <div class="quote-carousel">
+            <div class="quote-container">
+                <div class="quote active">
+                    <blockquote>
+                        <p>"#StaySingle like me and together we can contribute towards a sustainable future."</p>
+                        <cite>- Temjen Imna Along</cite>
+                    </blockquote>
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                        <p>"It is not just a festival but a bond of affection and trust."</p>
+                        <cite>- On Hornbill Festival</cite>
+                    </blockquote>
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                        <p>"Education is not just about degrees, but about creating responsible citizens who can contribute to nation-building."</p>
+                        <cite>- Temjen Imna Along</cite>
+                    </blockquote>
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                        <p>"Our cultural diversity is our strength. Let us celebrate it and learn from one another."</p>
+                        <cite>- Temjen Imna Along</cite>
+                    </blockquote>
+                </div>
+            </div>
+            
+            <div class="quote-nav">
+                <span class="quote-dot active" data-index="0"></span>
+                <span class="quote-dot" data-index="1"></span>
+                <span class="quote-dot" data-index="2"></span>
+                <span class="quote-dot" data-index="3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Timeline Section -->
+    <section class="timeline section-animate" id="achievements">
+        <h2 class="section-title">Achievements</h2>
+        
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content reveal-right">
+                    <h3>Minister of Higher Education and Tourism</h3>
+                    <p>Appointed as the Minister of Higher Education and Tourism in Nagaland, working to enhance educational opportunities and promote tourism in the state.</p>
+                    <span class="timeline-date">2018</span>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content reveal-right">
+                    <h3>Launch of Tribal Affairs Portal</h3>
+                    <p>Spearheaded the launch of a comprehensive portal to streamline tribal affairs and improve access to government services for tribal communities.</p>
+                    <span class="timeline-date">2019</span>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content reveal-right">
+                    <h3>Release of ₹1274.01 Lakhs Scholarship Funds</h3>
+                    <p>Facilitated the release of substantial scholarship funds to support the education of deserving students from tribal communities.</p>
+                    <span class="timeline-date">2020</span>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content reveal-right">
+                    <h3>Autumn Festival Delhi Showcase</h3>
+                    <p>Successfully organized and led the Nagaland delegation at the Autumn Festival in Delhi, showcasing the rich cultural heritage of Nagaland to a national audience.</p>
+                    <span class="timeline-date">2022</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery section-animate" id="gallery">
+        <h2 class="section-title">Photo Gallery</h2>
+        
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="hornbill">Hornbill Festival</button>
+            <button class="filter-btn" data-filter="students">With Students</button>
+            <button class="filter-btn" data-filter="events">Inaugurating Events</button>
+        </div>
+        
+        <div class="gallery-container">
+            <!-- First Column: Hornbill Festival -->
+            <div class="gallery-column hornbill-column">
+                <div class="gallery-item hornbill">
+                    <img src="images/stone-pulling-festival-hornbill.png" alt="Stone Pulling Festival">
+                    <div class="gallery-overlay">
+                        <span>Stone Pulling Festival</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item hornbill">
+                    <img src="images/hornbill-extension.png" alt="Hornbill Festival Extension">
+                    <div class="gallery-overlay">
+                        <span>Hornbill Festival Extension</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Second Column: With Students -->
+            <div class="gallery-column students-column">
+                <div class="gallery-item students">
+                    <img src="images/ignou-convocation.png" alt="IGNOU Convocation">
+                    <div class="gallery-overlay">
+                        <span>IGNOU Convocation</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item students">
+                    <img src="images/naga-students-union-pune.jpg" alt="Naga Students Union Pune">
+                    <div class="gallery-overlay">
+                        <span>Naga Students Union Pune</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Third Column: Inaugurating Events -->
+            <div class="gallery-column events-column">
+                <div class="gallery-item events">
+                    <img src="images/kisama-house-innauguration.jpg" alt="The Kisama House Inauguration">
+                    <div class="gallery-overlay">
+                        <span>The Kisama House Inauguration</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item events">
+                    <img src="images/central-plaza-shopping-mall.jpg" alt="Central Plaza Shopping Mall Inauguration">
+                    <div class="gallery-overlay">
+                        <span>Central Plaza Shopping Mall Inauguration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="connect section-animate" id="connect">
+        <div class="connect-content">
+            <h2>Connect with Me</h2>
+            <p class="connect-intro">Let's stay connected! Follow Temjen on social media for updates, activities, and initiatives across Nagaland.</p>
+            <div class="social-links">
+                <a href="https://instagram.com/alongimna" target="_blank" class="social-btn">
+                    <i class="fab fa-instagram"></i>
+                    <span>@alongimna</span>
+                </a>
+                <a href="https://twitter.com/AlongImna" target="_blank" class="social-btn">
+                    <i class="fab fa-twitter"></i>
+                    <span>@AlongImna</span>
+                </a>
+                <a href="https://www.facebook.com/AlongImnaa/" target="_blank" class="social-btn">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>Temjen Imna Along</span>
+                </a>
+            </div>
+            <div class="connect-message">
+                <p>Interested in inviting Temjen for an event or collaboration? Reach out today!</p>
+                <a href="mailto:contact@abumetha.com" class="connect-email">
+                    <i class="fas fa-envelope"></i> Contact via Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2023 Shri Temjen Imna Along. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
